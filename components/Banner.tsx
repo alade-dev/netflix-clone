@@ -27,7 +27,7 @@ function Banner({ netflixOriginals }: props) {
           objectFit="cover"
         />
       </div>
-      <h1 className="text-2xl lg:text-7xl md:text-4xl font-bold">
+      <h1 className="text-2xl lg:text-4xl md:text-4xl font-bold">
         {Movie?.title || Movie?.name || Movie?.original_name}{' '}
       </h1>
       <p className="max-w-xs text-xs text-shadow-md md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl">
